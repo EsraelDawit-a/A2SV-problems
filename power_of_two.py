@@ -13,11 +13,11 @@ class Solution:
        or using recursion
        '''
 
-       def is_power_of_two(n):
+       def is_power_of_three(n):
            if n == 1:
              return True
            elif n < 3 or n%3 != 0 :
               return False
            else:
-             return is_power_of_two(n/3)
+             return is_power_of_three(n/3)
               
