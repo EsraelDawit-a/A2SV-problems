@@ -1,4 +1,5 @@
 class Solution:
+    #stack implementaion
     def isValid(self, s: str) -> bool:
         st = []
         c = 0
