@@ -2,6 +2,7 @@ class Solution:
     def maxSum(self, grid: List[List[int]]) -> int:
         x,y = len(grid)-1,len(grid[0])-1
         
+        # Sliding window with Prefix sum
         # pattern to find the sum
         # s = grid[0][0]+grid[0][1]+grid[0][2]+grid[1][1]+grid[2][0]+grid[2][1]+grid[2][2]
         max_sum = 0
